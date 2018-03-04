@@ -22,4 +22,6 @@ some userful server bash script
 
 `` xxxx.sh: line 2: $'\r': command not found ``   
 
-#### 强烈推荐安装 ``dos2unix`` ，使用脚本前先转换！[详细教程](https://mrxn.net/jswz/570.html)<<——<<
+#### 强烈推荐安装 ``dos2unix`` ，使用脚本前先转换！[详细教程](https://mrxn.net/jswz/570.html)<<——  
+
+#### 在 ``Xshell`` 上快捷传输文件助手 ``lrzsz`` [详细教程](https://mrxn.net/Linux/542.html)<<——
