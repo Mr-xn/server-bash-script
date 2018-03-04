@@ -7,11 +7,15 @@ some userful server bash script
 
 >**贴图时刻**  
 
->freemem.sh运行记录
-![freemem.sh运行记录](https://i.imgur.com/C8ry52M.png) 
+>freemem.sh运行截图  
+![freemem.sh运行截图](https://i.imgur.com/C8ry52M.png) 
 
->freecpu.sh运行记录  
-![freecpu.sh运行记录](https://i.imgur.com/PyL8S0L.png) 
+>freecpu.sh运行截图  
+![freecpu.sh运行截图](https://i.imgur.com/PyL8S0L.png)  
+
+>crontab.sh运行截图    
+![crontab.sh运行截图](https://imgur.com/QuZaU57.png)  
+
 #### 此脚本适合小白使用，不懂de到 [博客](https://mrxn.net) 留言 欢迎提issue和push你的!
 
 #### 如果使用过程中 出现以下类似错误提示，请安装 ``dos2unix`` 将从Windows上传的脚本 先转换成Unix格式再运行！  
