@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# monitor used memory 
+# add plan to crontab 
 # powered by mrxn
 # blog: https://mrxn.net/ 
 # please use bash command  run  this script like this bash crontab.sh 
