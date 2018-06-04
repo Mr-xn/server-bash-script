@@ -11,16 +11,16 @@ PS：目前只在Debian+lnmp环境测试过，有BUG，提issue，找时间修�
 
 
 >autorun.sh运行图  
-![autorun.sh运行截图](https://i.imgur.com/C8ry52M.png)  
+![autorun.sh运行截图](https://github.com/Mr-xn/server-bash-script/blob/master/img/autorun.sh%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true)  
 
 >freemem.sh运行截图  
-![freemem.sh运行截图](https://i.imgur.com/C8ry52M.png) 
+>![freemem.sh运行截图](https://github.com/Mr-xn/server-bash-script/blob/master/img/freemem.sh%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true) 
 
 >freecpu.sh运行截图  
-![freecpu.sh运行截图](https://i.imgur.com/PyL8S0L.png)  
+![freecpu.sh运行截图](https://raw.githubusercontent.com/Mr-xn/server-bash-script/master/img/freecpu.sh%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true)  
 
->crontab.sh运行截图    
-![crontab.sh运行截图](https://imgur.com/QuZaU57.png)  
+>crontab.sh运行截图  
+![crontab.sh运行截图](https://github.com/Mr-xn/server-bash-script/blob/master/img/crontab.sh%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true)  
 
 #### 此脚本适合小白使用，不懂de到 [博客](https://mrxn.net) 留言 欢迎提issue和push你的!
 
