@@ -1,11 +1,17 @@
 # server-bash-script
 some userful server bash script
-#### 各个脚本的功能在脚本里有介绍用法这里只是说一下简单的 
+#### 各个脚本的功能在脚本里有介绍用法这里只是说一下简单的  
+>* --autorun.sh-- 一个监控系统负载来重启一些你的高负载服务，如nginx,mysql,v2ray.的Linux脚本（小内存机器和小白使用吧，配合crontab食用最佳。  
+PS：目前只在Debian+lnmp环境测试过，有BUG，提issue，找时间修复。
 >* --freemem.sh-- vps内存释放脚本，定时释放内存（我是以buff为准，你可以改成以实际剩余，脚本中有写，自己注释就行）。
 >* --freecpu.sh-- vps杀掉指定进程，当某些进程占用CPU过高的时候可以用此脚本监控并且杀掉它（这是暴力解决，不推荐！最好找出问题源头解决）。  
 >* --crontab.sh-- 用shell添加 crontab 定时任务  
 
 >**贴图时刻**  
+
+
+>autorun.sh运行图  
+![autorun.sh运行截图](https://i.imgur.com/C8ry52M.png)  
 
 >freemem.sh运行截图  
 ![freemem.sh运行截图](https://i.imgur.com/C8ry52M.png) 
