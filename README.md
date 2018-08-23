@@ -1,3 +1,5 @@
+###update 2018-08-23添加 update_proxy.sh
+
 # server-bash-script
 some userful server bash script
 #### 各个脚本的功能在脚本里有介绍用法这里只是说一下简单的  
@@ -31,3 +33,16 @@ PS：目前只在Debian+lnmp环境测试过，有BUG，提issue，找时间修�
 #### 强烈推荐安装 ``dos2unix`` ，使用脚本前先转换！[详细教程](https://mrxn.net/jswz/570.html)<<——  
 
 #### 在 ``Xshell`` 上快捷传输文件助手 ``lrzsz`` [详细教程](https://mrxn.net/Linux/542.html)<<——
+###  此shell专门为 [htpwdScan](https://github.com/lijiejie/htpwdScan) 适配 [proxy_pool](https://github.com/jhao104/proxy_pool)
+> 将下面的内容保存为update_proxy.sh文件放到htpwdScan目录下面，sh update_proxy.sh执行就可以了，你也可以扔到定时任务里自动执行:alarm_clock: */6 * * * * sh /your/path/to/htpwdScan/update_proxy.sh
+
+```shell
+curl 127.0.0.1:5010/get_all/ > proxy.txt
+sed -i "s/\[//" proxy.txt
+sed -i "s/\]//" proxy.txt
+sed -i "s/\"//g" proxy.txt
+sed -i '/^\s*$/d' proxy.txt
+sed -i 's/^[ ]*//g' proxy.txt
+```
+
+- PS：啥都不懂的先Google搜索，不能翻的，可以用我的 [Google搜索](https://g.mrxn.net/) 【仅限搜索学习相关】,充分搜索了再来提问，别一来就问 :x: 类似htpwdScan是干啥的？proxy_pool是干哈的这类。大家时间有限，谢谢!
